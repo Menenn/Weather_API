@@ -10,7 +10,7 @@ namespace Weather_API.Classes
         private readonly HttpClient _httpClient;
 
         //Chave da API para realizar as consultas
-        private readonly string _apiKey = "99bf862319174eec868163908251406";
+        private readonly string _apiKey = "";
 
         public WeatherService(HttpClient httpClient)
         {

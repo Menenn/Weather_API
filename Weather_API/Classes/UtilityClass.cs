@@ -9,8 +9,8 @@ namespace Weather_API.Classes
 {
     public static class UtilityClass
     {
-        //String de conexão do banco de dados (apenas conexão local)
-        static string SQLConn = "Data Source=192.168.100.118; Initial Catalog=Weather; User Id=Weather; Password=QualitWeather@123; TrustServerCertificate=True; Encrypt=False;";
+        //String de conexão do banco de dados
+        static string SQLConn = "";
 
         #region Funcionalidades
 
